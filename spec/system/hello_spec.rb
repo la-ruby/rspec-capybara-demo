@@ -4,7 +4,7 @@ end
 
 
 RSpec.describe 'Full page example (scrolling)', :type => :system do
-  # include_context "shared stuff"
+  include_context "shared stuff"
 
   it 'example' do
     visit 'https://www.whatismybrowser.com/detect/is-javascript-enabled'
