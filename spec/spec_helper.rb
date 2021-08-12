@@ -108,4 +108,5 @@ require 'byebug'
 
 RSpec.configure do |config|
   config.include LoginHelper
+  config.include BeLoginPage #, type: :feature
 end
