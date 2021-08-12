@@ -1,7 +1,3 @@
-RSpec.shared_context "shared stuff", :shared_context => :metadata do
-  before { puts "hereBefore" }
-end
-
 
 
 RSpec.describe 'Full page example (scrolling)', :type => :system do
