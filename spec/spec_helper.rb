@@ -103,6 +103,7 @@ end
 
 
 require 'support/capybara'
+require 'support/login_helper'
 require 'byebug'
 
 RSpec.configure do |config|
