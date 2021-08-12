@@ -104,3 +104,7 @@ end
 
 require 'support/capybara'
 require 'byebug'
+
+RSpec.configure do |config|
+  config.include LoginHelper
+end
