@@ -7,4 +7,4 @@ gem 'rspec'
 gem 'capybara'
 gem 'selenium-webdriver'
 gem 'launchy'
-gem 'byebug'
+gem 'byebug', require: true
