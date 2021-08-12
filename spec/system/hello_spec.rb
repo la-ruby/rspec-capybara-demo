@@ -19,6 +19,7 @@ RSpec.describe 'Full page example (scrolling)', :type => :system do
     visit 'https://www.whatismybrowser.com/detect/is-javascript-enabled'
     do_login
     save_and_open_screenshot
+    expect(page).to have_title "aaa"
   end
 
   include_examples "some example", "parameter1"
