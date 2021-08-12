@@ -104,6 +104,7 @@ end
 
 require 'support/capybara'
 require 'support/login_helper'
+require 'support/matchers/be_aaa_page'
 require 'byebug'
 
 RSpec.configure do |config|
