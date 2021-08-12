@@ -11,5 +11,7 @@ RSpec.describe 'Full page example (scrolling)', :type => :system do
     do_login
     save_and_open_screenshot
   end
+
+  include_examples "some example", "parameter1"
 end
 
