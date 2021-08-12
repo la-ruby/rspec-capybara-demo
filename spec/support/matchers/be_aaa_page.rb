@@ -1,4 +1,4 @@
-module BeLoginPage
+module BeAaaPage
   extend RSpec::Matchers::DSL
 
   matcher :be_aaa_page do
