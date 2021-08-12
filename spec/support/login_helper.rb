@@ -1,5 +1,5 @@
 module LoginHelper
-  def do_login(username, password)
+  def do_login
     visit 'https://example.com'
   end
 end
